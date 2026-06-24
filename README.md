@@ -35,10 +35,10 @@ Projeto de automação mobile para a EBAC Shop usando WebdriverIO, Appium e Moch
 git clone https://github.com/DouglasAntoni0/teste-mobile-ebac-shop.git
 cd teste-mobile-ebac-shop
 npm install
-npm run wdio
+npx wdio run ./wdio.conf.cjs
 ```
 
-> Observação: a execução mobile depende de ambiente Appium configurado, dispositivo/emulador compatível e aplicativo alvo acessível ao runner.
+> Observação: a execução mobile depende de ambiente Appium/cloud configurado, aplicativo alvo acessível ao runner e credenciais válidas quando o ambiente remoto for utilizado.
 
 ## Resultado técnico
 
